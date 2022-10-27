@@ -13,11 +13,10 @@
         value=currentElement;
         value+=change;
 
-        console.log(value)
         if(value === 0 || value == sliders.length+1){
             value = value === 0 ? sliders.length : 1;
         }
         sliders[currentElement - 1].classList.toggle('slider__body--show');
         sliders[value-1].classList.toggle('slider__body--show');
     }
-})()
+})();

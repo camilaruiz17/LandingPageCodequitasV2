@@ -1,23 +1,21 @@
 .navbar{
-    background-color: red;
-    border: 5px solid #000;
-    width: auto;
-    height: 125px;
-    margin: auto;
-  }
-  .logo{
-    background-color:yellow;
-    width: 100px;
-    height: 125px;
-    position: absolute;
-  }
-  .name{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    text-align: center;
-    line-height: 125px;
-    width: auto;
-    height: 125px;
-    margin-left: 125px;
-    position: center;
-  }
+  width: auto;
+  margin: auto;
+  padding-left: 30px;
+}
+.flex-item {
+  background-color: white;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 50px;
+}
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.flex-items1 img{
+  max-width: 100px;
+}
