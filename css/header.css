@@ -1,0 +1,23 @@
+.navbar{
+    background-color: red;
+    border: 5px solid #000;
+    width: auto;
+    height: 125px;
+    margin: auto;
+  }
+  .logo{
+    background-color:yellow;
+    width: 100px;
+    height: 125px;
+    position: absolute;
+  }
+  .name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    line-height: 125px;
+    width: auto;
+    height: 125px;
+    margin-left: 125px;
+    position: center;
+  }
