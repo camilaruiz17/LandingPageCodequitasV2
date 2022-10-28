@@ -19,3 +19,13 @@
 .flex-items1 img{
   max-width: 100px;
 }
+
+.flex-items2{
+    
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;    
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+
+}
